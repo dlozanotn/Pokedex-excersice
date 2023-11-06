@@ -1,11 +1,11 @@
 :root {
   --identity-primary: #43324e;
 
-  --grayscale-dark: #212121;
-  --grayscale-medium: #b1b1b1;
-  --grayscale-light: #dbdbdb;
-  --grayscale-background: #382c3b;
-  --grayscale-white: #fff2fd;
+  --purple-dark: #212121;
+  --purple-medium: #b1b1b1;
+  --purple-light: #dbdbdb;
+  --purple-background: #382c3b;
+  --purple-white: #fff2fd;
 
   --headline-font-size: 24px;
   --body1-font-size: 14px;
@@ -114,7 +114,7 @@ body {
 }
 
 .logo-wrapper > h1 {
-  color: var(--grayscale-white);
+  color: var(--purple-white);
 }
 
 .logo-wrapper > img {
@@ -131,7 +131,7 @@ body {
 
 .search-wrap {
   position: relative;
-  background-color: var(--grayscale-white);
+  background-color: var(--purple-white);
   border-radius: 16px;
   box-shadow: var(--drop-shadow-inner);
   height: 32px;
@@ -156,7 +156,7 @@ body {
 }
 
 .sort-wrap {
-  background-color: var(--grayscale-white);
+  background-color: var(--purple-white);
   border-radius: 100%;
   min-width: 2rem;
   min-height: 2rem;
@@ -210,13 +210,13 @@ body {
 }
 
 .filter-wrapper > .body2-fonts {
-  color: var(--grayscale-white);
+  color: var(--purple-white);
   font-weight: var(--font-weight-bold);
   padding: 16px 20px;
 }
 
 .filter-wrap {
-  background-color: var(--grayscale-white);
+  background-color: var(--purple-white);
   box-shadow: var(--drop-shadow-inner);
   padding: 16px 20px;
   border-radius: 15px;
@@ -238,7 +238,7 @@ body {
 }
 
 .pokemon-list {
-  background-color: var(--grayscale-white);
+  background-color: var(--purple-white);
   box-shadow: var(--drop-shadow-inner);
   border-radius: 1rem;
   min-height: calc(85.5% - 1rem);
@@ -259,7 +259,7 @@ body {
 .list-item {
   border-radius: 15px;
   box-shadow: var(--drop-shadow);
-  background-color: var(--grayscale-white);
+  background-color: var(--purple-white);
   width: 8.85rem;
   height: 8.85rem;
   text-align: center;
@@ -271,12 +271,12 @@ body {
   min-height: 16px;
   text-align: right;
   padding: 0 8px;
-  color: var(--grayscale-medium);
+  color: var(--purple-medium);
 }
 
 .list-item .name-wrap {
   border-radius: 7px;
-  background-color: var(--grayscale-background);
+  background-color: var(--purple-background);
   padding: 24px 8px 4px 8px;
   color: #ffffff;
   margin-top: -18px;
@@ -321,8 +321,8 @@ body {
 .detail-main .back-btn-wrap path,
 .detail-main .header-wrapper p,
 .detail-main .header-wrapper h1 {
-  fill: var(--grayscale-white);
-  color: var(--grayscale-white);
+  fill: var(--purple-white);
+  color: var(--purple-white);
 }
 
 .detail-main .pokemon-id-wrap p {
@@ -344,7 +344,7 @@ body {
 
 .detail-card-detail-wrapper {
   border-radius: 8px;
-  background-color: var(--grayscale-white);
+  background-color: var(--purple-white);
   box-shadow: var(--drop-shadow-inner);
   padding: 56px 20px 20px 20px;
   margin-top: -50px;
@@ -366,7 +366,7 @@ body {
   border-radius: 10px;
   padding: 2px 8px;
   font-weight: var(--font-weight-bold);
-  color: var(--grayscale-white);
+  color: var(--purple-white);
   text-transform: capitalize;
   background-color: #74cb48;
 }
@@ -398,7 +398,7 @@ body {
 
 .pokemon-detail-wrap:before {
   content: "";
-  background-color: var(--grayscale-light);
+  background-color: var(--purple-light);
   width: 1px;
   height: 100%;
   position: absolute;
@@ -432,7 +432,7 @@ body {
 }
 
 .pokemon-detail-wrap > .caption-fonts {
-  color: var(--grayscale-medium);
+  color: var(--purple-medium);
 }
 
 .pokemon-detail-wrap .straighten {
@@ -440,7 +440,7 @@ body {
 }
 
 .detail-card-detail-wrapper .pokemon-description {
-  color: var(--grayscale-dark);
+  color: var(--purple-dark);
   text-align: center;
 }
 
@@ -450,7 +450,7 @@ body {
 }
 
 .stats-wrap p {
-  color: var(--grayscale-dark);
+  color: var(--purple-dark);
   margin-right: 8px;
   min-width: 19px;
 }
@@ -459,7 +459,7 @@ body {
   text-align: right;
   padding-right: 8px;
   min-width: 35px;
-  border-right: 1px solid var(--grayscale-light);
+  border-right: 1px solid var(--purple-light);
   font-weight: var(--font-weight-bold);
 }
 
@@ -486,7 +486,7 @@ body {
 }
 
 .detail-bg path {
-  fill: var(--grayscale-white);
+  fill: var(--purple-white);
 }
 
 div#not-found-message {
